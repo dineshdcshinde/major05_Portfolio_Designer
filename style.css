@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper {
+  min-height: 100%;
+  width: 100%;
+}
+
+
+/* nav */
+nav {
+  height: 10%;
+  width: 100%;
+  background-color: pink;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #8c5b97;
+  padding: 1.3rem;
+}
+
+.nav-left {
+  width: 30%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav-left img {
+  height: 100%;
+  width: 40%;
+  cursor: pointer;
+}
+
+.nav-right {
+  width: 70%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.nav-right a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 1%;
+  transition: background-color 0.3s ease;
+}
+
+.nav-right a:hover {
+  background-color: #674575;
+}
+
+.nav-right select {
+  background-color: transparent;
+  border: none;
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #fff;
+  padding: 1%;
+  transition: background-color 0.3s ease;
+}
+
+.nav-right select:hover {
+  background-color: #674575;
+  cursor: pointer;
+}
+
+.nav-right svg {
+  color: #fff;
+  transition: color 0.3s ease;
+}
+
+.nav-right svg:hover {
+  color: #674575;
+  cursor: pointer;
+}
