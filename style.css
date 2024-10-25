@@ -234,3 +234,142 @@ nav {
   color: #fff;
   font-size: 1.1rem;
 }
+
+.squiggle {
+  position: absolute;
+  z-index: 111;
+  margin-top: 1%;
+  padding-left: 3%;
+}
+
+/* inside-mark-design-section */
+.inside-mark-design {
+  min-height: 100%;
+  width: 100%;
+}
+
+.inside-mark-info {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  /* gap: 2%; */
+  overflow: hidden;
+}
+
+.inside-photo {
+  height: auto;
+  max-width: 50%;
+}
+
+.inside-photo img {
+  height: 1043.71px;
+  width: 100%;
+}
+
+.inside-info {
+  padding-left: 3%;
+  background-color: 
+  #eeeef5;
+  width: 50%;
+  /* max-width: 40% */
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+}
+
+.inside-right-photo {
+  height: 180px;
+  width: 190px;
+  padding-top: 3%;
+  /* margin-bottom: 1rem; */
+}
+
+.inside-info h3 {
+  color: #303037;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2.2rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 3rem;
+}
+
+.inside-info > p {
+  color: #50505a;
+  font-size: 1.2rem;
+  line-height: 2rem;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 2%;
+}
+
+.podcasts {
+  width: 100%;
+  display: flex;
+  /* justify-content: space-between; */
+  gap: 1rem;
+  align-items: center;
+  margin: 1rem;
+  cursor: pointer;
+}
+
+.podcasts svg {
+  color: #8c5b97;
+  transition: color 0.4s ease;
+}
+
+.podcasts svg:hover {
+  color: #81548b;
+}
+
+.podcasts a {
+  text-decoration: none;
+  color: #8c5b97;
+  font-weight: 600;
+  font-size: 1.2rem;
+  text-align: center;
+  transition: color 0.4s ease;
+}
+
+.podcasts a:hover {
+  color: #81548b;
+}
+
+.featuring-companies {
+  margin-top: 5rem;
+  position: relative;
+}
+
+.featuring-com-head {
+  font-size: 1.3rem;
+  transform: rotate(-5deg);
+  letter-spacing: 2px;
+  font-family: "Rubik Wet Paint", system-ui;
+}
+
+.inside-arrow {
+  position: absolute;
+  left: 22rem;
+  top: 10%;
+}
+
+.comapnies {
+  margin-top: 3rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 3rem;
+  flex-wrap: wrap;
+}
+
+.comapnies img {
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.comapnies img:hover {
+  color: #303037;
+  transform: scale(1.2);
+  cursor: pointer;
+}
