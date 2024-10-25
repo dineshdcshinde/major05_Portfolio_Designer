@@ -243,6 +243,7 @@ nav {
 }
 
 /* inside-mark-design-section */
+
 .inside-mark-design {
   min-height: 100%;
   width: 100%;
@@ -261,17 +262,19 @@ nav {
 .inside-photo {
   height: auto;
   max-width: 50%;
+  background-color: #eeeef5;
 }
 
 .inside-photo img {
-  height: 1043.71px;
+  height: 1000px;
   width: 100%;
+  object-fit: cover;
+  object-position: center;
 }
 
 .inside-info {
   padding-left: 3%;
-  background-color: 
-  #eeeef5;
+  background-color: #eeeef5;
   width: 50%;
   /* max-width: 40% */
   display: flex;
@@ -372,4 +375,138 @@ nav {
   color: #303037;
   transform: scale(1.2);
   cursor: pointer;
+}
+
+/* personal-brand-sec */
+
+.personal-brand-sec {
+  min-height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+  background-color: #eeeef5;
+}
+
+.personal-brand-info {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.person-brand {
+  min-width: 50%;
+  padding-left: 3rem;
+  padding-top: 5rem;
+  background-color: #eeeef5;
+}
+
+.person-brand h2 {
+  color: #303037;
+  margin-top: 11rem;
+  margin-bottom: 3rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2.2rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 3rem;
+}
+
+.person-brand p {
+  color: #50505a;
+  font-size: 1.2rem;
+  line-height: 2rem;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 4%;
+}
+
+.person-brand button {
+  background-color: #60b0ba;
+  color: #fff;
+  letter-spacing: 1px;
+  border-radius: 3px;
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+  border: none;
+  transition: background-color 0.4s ease;
+}
+
+.person-brand button:hover {
+  background-color: #50a5b0;
+  cursor: pointer;
+}
+
+.persoanl-photo {
+  width: 50%;
+  position: relative;
+}
+
+.persoanl-photo > img {
+  height: 1000px;
+  width: 700px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.persoanl-photo .personal-squiggle {
+  position: absolute;
+  bottom: 19rem;
+  right: -1rem;
+  width: 300px;
+  height: 100px;
+}
+
+.handwritten-sec {
+  width: 100%;
+  max-width: 80%;
+  margin: 0 auto;
+  margin-top: 3rem;
+  padding: 24px 40px 0 40px;
+  display: flex;
+  border: 1px solid rgb(140, 91, 151);
+  border-radius: 1rem;
+}
+
+.handwritten-sec img {
+  width: 235px;
+  height: 190px;
+}
+
+.handwritten-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 3%;
+}
+
+.handwritten-info h3 {
+  color: #303037;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1.3rem;
+}
+
+.handwritten-info p {
+  color: #50505a;
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+  line-height: 2rem;
+}
+
+.handwritten-info a {
+  text-decoration: none;
+  color: rgb(140, 91, 151);
+  font-weight: 600;
+  transition: color 0.4s ease;
+}
+
+.handwritten-info a svg {
+  margin-left: 1.2%;
+}
+
+.handwritten-info a:hover {
+  color: #674575;
 }
