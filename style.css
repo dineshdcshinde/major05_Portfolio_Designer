@@ -510,3 +510,217 @@ nav {
 .handwritten-info a:hover {
   color: #674575;
 }
+
+/* video-life-sec */
+
+.video-life-sec {
+  min-height: 100%;
+  width: 100%;
+  background-color: #eeeef5;
+}
+
+.video-head {
+  padding-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.video-head h2 {
+  color: #303037;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 2.5rem;
+  text-align: center;
+}
+
+.video-head p{
+  color: #50505a;
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+  line-height: 2rem;
+}
+
+
+.video-head button{
+  background-color:#60b0ba;
+  color: #fff;
+  letter-spacing: 1px;
+  border-radius: 3px;
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.video-head button:hover{
+  background-color:#2e8995;
+  cursor: pointer;
+}
+
+.video-head button img{
+  height: 18px; 
+  margin-right: 0.3rem;
+}
+
+/* videos sections */
+
+.videos{
+  /* height: ; */
+  width: 100%;
+  margin-top: 3%;
+  position: relative;
+}
+
+.start-sec{
+  position: absolute;
+  right: 19%;
+  top: -28%;
+}
+
+.video-items{
+  margin-top: 5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1rem;
+  overflow-x: auto;
+}
+
+.video-items::-webkit-scrollbar{
+  overflow: hidden;
+}
+.video-items img{
+  height:130px;
+  width: 230px;
+  cursor: pointer;
+}
+
+/* thoughts-sec */
+.thoughts-sec{
+  min-height: 100vh;
+  width: 100%;
+  background-color: #eeeef5;
+  position: relative;
+}
+
+.thoughts{
+  width: 100%;
+  max-width: 90%;
+  margin: 0 auto;
+  display: flex;
+  padding-top: 5rem;
+  justify-content: space-between;
+  position: relative;
+}
+
+.thoughts-info h3{
+  color: #303037;
+  margin-bottom: 1rem;
+  font-size: 1.9rem;
+  font-weight: 600;
+  line-height: 2.5rem;
+}
+
+.thoughts-info p{
+  color: #50505a;
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+  line-height: 1.7rem;
+}
+
+.thoughts-info button{
+  background-color:#60b0ba;
+  color: #fff;
+  letter-spacing: 1px;
+  border-radius: 3px;
+  padding: 1rem 1.5rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.thoughts-info button:hover{
+  cursor: pointer;
+  background-color: #549aa3;
+}
+
+.thoughts-fina{
+  background-color: #fff;
+  height: 260px;
+  padding: 3%;
+  position: absolute;
+  left: 49%;
+ z-index: 111;
+ bottom:9%;
+ border-radius: 5px;
+ box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+
+}
+
+.thoughts-fina h3{
+  color: #303037;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 2rem;
+}
+
+.thoughts-fina button{
+  padding:8px 30px;
+  background-color:transparent;
+  border: none;
+  border-radius: 25px;
+  border: 2px solid #be69a4;
+  font-size: 1rem;
+  text-transform: uppercase;
+  color: #be69a4;
+  margin-bottom: 1.3rem;
+  transition: background-color 0.3s ease;
+}
+
+.thoughts-fina button:hover{
+ background-color: #d2d2ee;
+ cursor: pointer;
+}
+
+.thoughts-fina p{
+  color: #50505a;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  margin-bottom: 1%;
+}
+
+.thoughts-fina a{
+  text-decoration: none;
+  font-size: 1rem;color: #be69a4;
+}
+
+.thoughts-fina a svg{
+  margin-left: 1%;
+}
+
+
+.thoughts-backgr{
+  height: 270px;
+  width: 50%;
+  background-color: #be69a4;
+  border-radius: 5px;
+}
+
+.read-the-late{
+  position: absolute;
+  right: 35%;
+  bottom: 23%;
+}
+
+.read-the-late p{
+  font-size: 1.3rem;
+  transform: rotate(-10deg);
+  margin-top: 1%;
+  font-family: "Rubik Wet Paint", system-ui;
+}
